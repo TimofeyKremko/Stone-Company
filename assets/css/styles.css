@@ -1072,6 +1072,7 @@ h2 {
   }
   .benefits .container--small .left__content {
     max-width: 100%;
+    overflow: hidden;
   }
   .benefits .container--small .right__content {
     text-align: center;
