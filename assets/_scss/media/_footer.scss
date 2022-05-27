@@ -1,0 +1,28 @@
+@media(max-width: 750px) {
+  .footer {
+    .container--small {
+      justify-content: center;
+      padding-bottom: 0;
+      gap: 15px;
+
+    }
+
+    &__item {
+      max-width: 100%;
+    }
+
+
+    &__menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .menu__item {
+      align-self: center;
+    }
+    .form__input {
+      max-width: 100%;
+    }
+  }
+}

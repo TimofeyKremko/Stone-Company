@@ -1,0 +1,18 @@
+@media(max-width: 750px) {
+  .stones {
+    padding-top: 50px;
+    .container--small {
+      h2 {
+        text-align: center;
+      }
+      .stone__list {
+        justify-content: center;
+        min-width: 100%;
+        .list__item {
+          min-width: 75%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+}

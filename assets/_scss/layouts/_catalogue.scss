@@ -1,0 +1,41 @@
+.catalogue {
+  .container--small {
+    display: flex;
+    gap: 65px;
+  }
+
+  .left__item {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    width: 280px;
+    opacity: 0.8;
+    border: 2px solid #E7E4E7;
+    border-radius: 4px;
+    padding: 8px 16px;
+    background: #FFFFFF;
+    ;
+
+    &--active {
+      background: #E7E4E7;
+    }
+  }
+}
+
+.stone__list {
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.list__item {
+  min-width: 330px;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.item__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+@media(max-width: 750px) {
+  .catalogue {
+    .container--small {
+      flex-direction: column;
+      max-width: 100%;
+
+      .catalogue__left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .left__item {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  .stone__list {
+    justify-content: center;
+  }
+}

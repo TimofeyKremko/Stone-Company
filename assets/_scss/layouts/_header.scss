@@ -1,0 +1,28 @@
+.header {
+  .container--small {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px 20px;
+  }
+
+  .header {
+    &__contact {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+   
+  }
+
+  .nav {
+    &__list {
+      display: flex;
+      gap: 70px;
+      .list__item {
+        min-width: 100px;
+      }
+    }
+  }
+
+}

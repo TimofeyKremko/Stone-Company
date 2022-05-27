@@ -1,0 +1,26 @@
+.feedback {
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  h2 {
+    text-align: center;
+    padding: 70px 0;
+  }
+  &__item {
+    max-width: 330px;
+    border: 1px solid #C0B9C0;
+    border-radius: 4px;
+    padding: 24px;
+    .item__title {
+      display: flex;
+      align-items: center;
+      padding-bottom: 10px;
+    }
+    .about__text {
+      padding-left: 25px;
+    }
+  }
+}

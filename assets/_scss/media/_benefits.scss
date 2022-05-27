@@ -1,0 +1,23 @@
+@media(max-width: 750px) {
+  .benefits {
+    padding-top: 50px;
+
+    .container--small {
+      flex-direction: column;
+      gap: 50px;
+
+      .left__content {
+        max-width: 100%;
+      }
+
+      .right__content {
+        text-align: center;
+
+        .parametrs {
+          gap: 15px;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@media(max-width: 750px) {
+  .our__works {
+    .container--small {
+      h2 {
+        padding: 30px 0;
+        text-align: center;
+      }
+
+      hr {
+        width: 100%;
+      }
+
+
+    }
+
+    .slider--second {
+      display: none;
+    }
+  }
+}

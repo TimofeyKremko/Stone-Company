@@ -1,0 +1,106 @@
+h1 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 64px;
+  letter-spacing: -0.005em;
+  color: $title_color;
+}
+
+.nav__text {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: $primary_text_color;
+}
+
+.contact__text {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  color: $primary_text_color;
+}
+
+.caption__text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: 0.06em;
+  color: #857885;
+}
+
+h2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: $title_color;
+}
+
+.about__text {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  color: $title_color;
+  text-align: center;
+}
+
+.card__text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #50393F;
+}
+
+.footer__link {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  color: $primary_text_color;
+}
+
+.copy__text {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #5B525B;
+}
+
+.breadcrumbs__link {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  color: #857885;
+
+  &--active {
+    color: #5B525B;
+  }
+}
+
+.parameters__title {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  color: $title_color;
+}

@@ -1,0 +1,77 @@
+.stone__list {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+
+  a {
+      display: none;
+    }
+
+    .active {
+      display: block;
+    }
+  .list__item {
+    border: 1px solid #C0B9C0;
+    border-radius: 4px;
+    padding: 50px 20px 30px;
+    max-width: 215px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.4s ease;
+
+    &:hover {
+      transform: translate(0, -8px);
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .stone__img {
+      padding-bottom: 10px;
+    }
+
+    .item__img {
+      flex: 1;
+    }
+
+    .item__text {
+      padding-top: 15px;
+      border-top: 1px solid #C0B9C0;
+      text-align: center;
+    }
+
+    .item__title {
+      text-align: right;
+      padding: 5px 30px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      color: #684A52;
+
+    }
+  }
+}
+
+.stones {
+  padding-top: 170px;
+
+  .stone__img {
+    max-width: 210px;
+  }
+
+  .list__item {
+    padding: 50px 0 30px !important;
+    max-width: 220px;
+    min-width: 150px;
+
+
+  }
+
+  .list__item--link {
+    &:hover {
+      transform: translate(0, -5px);
+    }
+  }
+}
